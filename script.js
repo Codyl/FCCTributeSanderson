@@ -3,7 +3,8 @@ timeLineItems.forEach(element => {
     element.addEventListener("click",() => {
         toggleInfoVisibilityOn(document.getElementById(element.id + '-info'));
         toggleCircleSelection(element);
-    })
+        nextElementIndex = parseInt(element.dataset.index)+1;
+    });
 });
 var nextElementIndex = 0;
 document.getElementById("next-timeline-item-button").addEventListener("click", () => { 
