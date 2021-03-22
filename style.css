@@ -71,4 +71,11 @@ footer {
 }
 #next-timeline-item-button {
     float: right;
+    background-image: linear-gradient(lightgreen,green);
+    padding: 1em 2em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#next-timeline-item-button:active {
+    background-image: linear-gradient(green,darkgreen);
 }
