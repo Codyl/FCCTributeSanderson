@@ -5,7 +5,7 @@ body {
     background-color: black;
     margin: 0;
     background-position: bottom right;
-  }
+}
 #title {
     color: #B8959D;  
     justify-content: space-around;
@@ -22,15 +22,11 @@ body {
     align-items:flex-end;
 }
 #img-caption {
-background-color: white;
 padding: 10px;
 margin: 5px;
 }
 #timeline {
     margin-left: 10vw;
-}
-main {
-    
 }
 #tribute-info {
     /* background-color: darkgoldenrod; */
@@ -38,7 +34,7 @@ main {
 }
 .timeline-item {
     display: inline-block;
-    background-color: #959DB8;
+    background-color: rgb(149, 157, 184);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -49,8 +45,12 @@ main {
 }
 .year-info {
     color: white;
-    font-size: large;
+    background-color: rgba(88, 93, 109, 0.5);
     display: none;
+    padding: 20px 20px;
+}
+.year-info p {
+    font-size: 20px;
 }
 .timeline-item:hover {
     background-color:blanchedalmond;
@@ -78,4 +78,8 @@ footer {
 }
 #next-timeline-item-button:active {
     background-image: linear-gradient(green,darkgreen);
+}
+#image {
+    display: block;
+    max-width: 5em;
 }

@@ -32,6 +32,7 @@ function toggleCircleSelection(clickedElement)
     clickedElement.style.backgroundColor = "white";
 }
 function toggleButtonDisplayIfEndOfTimeline() {
+    // document.getElementById("tribute-info").style.display = "none";
     if(nextElementIndex == timeLineItems.length) {
         document.getElementById("next-timeline-item-button").style.display = "none";
     }
